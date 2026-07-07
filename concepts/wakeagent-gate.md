@@ -44,5 +44,5 @@ else:
 這是整套 multi-agent 系統能壓在 **US$20 ~ $27 / 月** 的關鍵機制。沒有它，三個 cron 每日都會啟動 agent，即便沒有任何新工作。
 
 ## 相關頁面
-- [hermes-multi-agent-setup](./hermes-multi-agent-setup.md)
-- [analyst-profile](./analyst-profile.md)
+- [hermes-multi-agent-setup](./concepts/hermes-multi-agent-setup.md)
+- [analyst-profile](./entities/analyst-profile.md)

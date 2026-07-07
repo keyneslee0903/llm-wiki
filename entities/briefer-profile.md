@@ -10,7 +10,7 @@ confidence: high
 
 # Briefer Profile
 
-Briefer 是 [[hermes-multi-agent-setup]] 中的**晨報發送者**，只讀取 wiki，輸出五條重點到 Telegram。
+Briefer 是 [hermes-multi-agent-setup](./hermes-multi-agent-setup.md) 中的**晨報發送者**，只讀取 wiki，輸出五條重點到 Telegram。
 
 ## 職責
 - 讀取過去 24 小時的 wiki 更新
@@ -32,5 +32,5 @@ Telegram chat
 - 不重複昨天內容，除非狀態有改變
 
 ## 相關頁面
-- [[hermes-multi-agent-setup]]
-- [[analyst-profile]]
+- [hermes-multi-agent-setup](./hermes-multi-agent-setup.md)
+- [analyst-profile](./analyst-profile.md)

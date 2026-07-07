@@ -22,9 +22,9 @@ confidence: high
 
 | Profile | 工作 | 寫入 | 模型層級 |
 |---------|------|------|---------|
-| [[scout-profile]] | 定期蒐集 signal，不分析 | inbox 資料夾 | 便宜、快速 |
-| [[analyst-profile]] | 綜合 signal 成結構化知識 | 共享 wiki | 強推理 |
-| [[briefer-profile]] | 讀取 wiki，每天清晨發 briefing | Telegram | 便宜、快速 |
+| [scout-profile](./scout-profile.md) | 定期蒐集 signal，不分析 | inbox 資料夾 | 便宜、快速 |
+| [analyst-profile](./analyst-profile.md) | 綜合 signal 成結構化知識 | 共享 wiki | 強推理 |
+| [briefer-profile](./briefer-profile.md) | 讀取 wiki，每天清晨發 briefing | Telegram | 便宜、快速 |
 
 ## 關鍵設計
 
@@ -57,8 +57,8 @@ confidence: high
 5. 剛開始就用 kanban dispatcher，三層管線不需要
 
 ## 相關頁面
-- [[multi-agent-vs-single-agent]]
-- [[scout-profile]]
-- [[analyst-profile]]
-- [[briefer-profile]]
-- [[llm-wiki]]
+- [multi-agent-vs-single-agent](./multi-agent-vs-single-agent.md)
+- [scout-profile](./scout-profile.md)
+- [analyst-profile](./analyst-profile.md)
+- [briefer-profile](./briefer-profile.md)
+- [llm-wiki](./llm-wiki.md)

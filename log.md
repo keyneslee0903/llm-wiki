@@ -21,3 +21,11 @@
   - comparisons/multi-agent-vs-single-agent.md
 - Note: Added llm-wiki-skill entity to represent the bundled wiki skill
 
+## [2026-07-09] ingest | MCP + AI Platform Engineering 2026
+- Sources: StackGen, Futurum Group, env0, Mirantis, PlatformCon 2026, Palo Alto Networks
+- Created:
+  - concepts/model-context-protocol.md
+  - concepts/mcp-gateway-enterprise.md
+  - concepts/ai-platform-engineering-2026.md
+- Updated: index.md (total pages 7 → 10)
+

@@ -59,6 +59,8 @@ Define 10-20 top-level tags for the domain. Add new tags here BEFORE using them.
 - Techniques: optimization, fine-tuning, inference, alignment, data
 - Meta: comparison, timeline, controversy, prediction
 - Learning: tutorial, course, book, concept
+- Infrastructure: platform-engineering, devops, devsecops, iac, sre, ai-infrastructure
+- AI Protocols: model-context-protocol, mcp-server, mcp-gateway, tool-integration
 
 Rule: every tag on a page must appear in this taxonomy. If a new tag is needed,
 add it here first, then use it. This prevents tag sprawl.

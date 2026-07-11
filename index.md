@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-07-08 | Total pages: 7
+> Last updated: 2026-07-09 | Total pages: 10
 
 ## Entities
 
@@ -14,6 +14,9 @@
 
 - [hermes-multi-agent-setup](./concepts/hermes-multi-agent-setup.md) — 三層管線 multi-agent 設計：Scout / Analyst / Briefer，共用 Obsidian wiki
 - [wakeagent-gate](./concepts/wakeagent-gate.md) — 喚醒關卡：排程 cron 啟動前先確認 inbox 是否為空，避免空跑計費
+- [model-context-protocol](./concepts/model-context-protocol.md) — Model Context Protocol：AI 與工具鏈的標準協議，平台工程 2026 核心基礎
+- [mcp-gateway-enterprise](./concepts/mcp-gateway-enterprise.md) — Enterprise MCP Gateway：AI agent 行為治理、audit、destructive 操作攔截
+- [ai-platform-engineering-2026](./concepts/ai-platform-engineering-2026.md) — 2026 平台工程從 automation 轉向 agent-based workflows
 
 ## Comparisons
 

@@ -2,7 +2,9 @@
 
 > 版本：1.0.0  
 > 建立日期：2026-07-15  
-> 狀態：Phase 1 + Phase 2 已完成
+> 狀態：Phase 1 + Phase 2 已完成；Tavily 已驗證可作為 Scout fallback
+
+**重要提醒**：all market/financial data 目前由 yfinance 提供，已知限制包括資料可能不準確、過期、缺漏；凡是投資判斷應額外查證。系統會標註資料來源，但不擔保正確性。
 
 ---
 

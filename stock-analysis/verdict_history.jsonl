@@ -1,12 +1,18 @@
-{"date": "2026-07-15", "ticker": "2885.TW", "name": "中信金", "price": null, "prev_price": null, "prev_verdict": null, "outcome_1d": null, "outcome_correct": null}
-{"date": "2026-07-15", "ticker": "3231.TW", "name": "緯創", "price": null, "prev_price": null, "prev_verdict": null, "outcome_1d": null, "outcome_correct": null}
-{"date": "2026-07-15", "ticker": "5880.TW", "name": "合庫金", "price": null, "prev_price": null, "prev_verdict": null, "outcome_1d": null, "outcome_correct": null}
-{"date": "2026-07-15", "ticker": "2885.TW", "name": "中信金", "price": null, "prev_price": null, "prev_verdict": "WAIT", "outcome_1d": null, "outcome_correct": null}
-{"date": "2026-07-15", "ticker": "3231.TW", "name": "緯創", "price": null, "prev_price": null, "prev_verdict": "WAIT", "outcome_1d": null, "outcome_correct": null}
-{"date": "2026-07-15", "ticker": "5880.TW", "name": "合庫金", "price": null, "prev_price": null, "prev_verdict": "WAIT", "outcome_1d": null, "outcome_correct": null}
-{"date": "2026-07-15", "ticker": "2885.TW", "name": "中信金", "price": null, "prev_price": null, "prev_verdict": "WAIT", "outcome_1d": null, "outcome_correct": null}
-{"date": "2026-07-15", "ticker": "3231.TW", "name": "緯創", "price": null, "prev_price": null, "prev_verdict": "WAIT", "outcome_1d": null, "outcome_correct": null}
-{"date": "2026-07-15", "ticker": "5880.TW", "name": "合庫金", "price": null, "prev_price": null, "prev_verdict": "WAIT", "outcome_1d": null, "outcome_correct": null}
-{"date": "2026-07-15", "ticker": "2885.TW", "name": "中信金", "price": null, "prev_price": null, "prev_verdict": "WAIT", "outcome_1d": null, "outcome_correct": null}
-{"date": "2026-07-15", "ticker": "3231.TW", "name": "緯創", "price": null, "prev_price": null, "prev_verdict": "WAIT", "outcome_1d": null, "outcome_correct": null}
-{"date": "2026-07-15", "ticker": "5880.TW", "name": "合庫金", "price": null, "prev_price": null, "prev_verdict": "WAIT", "outcome_1d": null, "outcome_correct": null}
+{"date": "2026-07-15", "ticker": "2885.TW", "name": "中信金", "price": 67.0, "prev_price": null, "prev_verdict": "WAIT", "verdict": "WAIT"}
+{"date": "2026-07-15", "ticker": "3231.TW", "name": "緯創", "price": 145.5, "prev_price": null, "prev_verdict": "WAIT", "verdict": "WAIT"}
+{"date": "2026-07-15", "ticker": "5880.TW", "name": "合庫金", "price": 25.35, "prev_price": null, "prev_verdict": "WAIT", "verdict": "WAIT"}
+{"date": "2026-07-15", "ticker": "2885.TW", "name": "中信金", "price": 67.0, "prev_price": 67.0, "prev_verdict": "WAIT", "verdict": "WAIT", "outcome_1d": 0.0, "outcome_correct": true}
+{"date": "2026-07-15", "ticker": "3231.TW", "name": "緯創", "price": 145.5, "prev_price": 145.5, "prev_verdict": "WAIT", "verdict": "WAIT", "outcome_1d": 0.0, "outcome_correct": true}
+{"date": "2026-07-15", "ticker": "5880.TW", "name": "合庫金", "price": 25.35, "prev_price": 25.35, "prev_verdict": "WAIT", "verdict": "WAIT", "outcome_1d": 0.0, "outcome_correct": true}
+{"date": "2026-07-15", "ticker": "2885.TW", "name": "中信金", "price": 67.0, "prev_price": 67.0, "prev_verdict": "WAIT", "verdict": "WAIT", "outcome_1d": 0.0, "outcome_correct": true}
+{"date": "2026-07-15", "ticker": "3231.TW", "name": "緯創", "price": 145.5, "prev_price": 145.5, "prev_verdict": "WAIT", "verdict": "WAIT", "outcome_1d": 0.0, "outcome_correct": true}
+{"date": "2026-07-15", "ticker": "5880.TW", "name": "合庫金", "price": 25.35, "prev_price": 25.35, "prev_verdict": "WAIT", "verdict": "WAIT", "outcome_1d": 0.0, "outcome_correct": true}
+{"date": "2026-07-15", "ticker": "2885.TW", "name": "中信金", "price": 67.0, "prev_price": 67.0, "prev_verdict": "WAIT", "verdict": "WAIT", "outcome_1d": 0.0, "outcome_correct": true}
+{"date": "2026-07-15", "ticker": "3231.TW", "name": "緯創", "price": 145.5, "prev_price": 145.5, "prev_verdict": "WAIT", "verdict": "WAIT", "outcome_1d": 0.0, "outcome_correct": true}
+{"date": "2026-07-15", "ticker": "5880.TW", "name": "合庫金", "price": 25.35, "prev_price": 25.35, "prev_verdict": "WAIT", "verdict": "WAIT", "outcome_1d": 0.0, "outcome_correct": true}
+{"date": "2026-07-16", "ticker": "2885.TW", "name": "中信金", "price": 66.7, "prev_price": 67.0, "prev_verdict": "WAIT", "verdict": "WAIT", "outcome_1d": -0.45, "outcome_correct": true}
+{"date": "2026-07-16", "ticker": "3231.TW", "name": "緯創", "price": 142.5, "prev_price": 145.5, "prev_verdict": "WAIT", "verdict": "WAIT", "outcome_1d": -2.06, "outcome_correct": true}
+{"date": "2026-07-16", "ticker": "5880.TW", "name": "合庫金", "price": 25.2, "prev_price": 25.35, "prev_verdict": "WAIT", "verdict": "WAIT", "outcome_1d": -0.59, "outcome_correct": true}
+{"date": "2026-07-16", "ticker": "2885.TW", "name": "中信金", "price": 66.7, "prev_price": 66.7, "prev_verdict": "WAIT", "verdict": "WAIT", "outcome_1d": 0.0, "outcome_correct": true}
+{"date": "2026-07-16", "ticker": "3231.TW", "name": "緯創", "price": 142.5, "prev_price": 142.5, "prev_verdict": "WAIT", "verdict": "WAIT", "outcome_1d": 0.0, "outcome_correct": true}
+{"date": "2026-07-16", "ticker": "5880.TW", "name": "合庫金", "price": 25.2, "prev_price": 25.2, "prev_verdict": "WAIT", "verdict": "WAIT", "outcome_1d": 0.0, "outcome_correct": true}

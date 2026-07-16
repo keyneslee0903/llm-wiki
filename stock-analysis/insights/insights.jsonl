@@ -1,2 +1,4 @@
 {"date": "2026-07-16", "type": "verdict_accuracy", "ticker": "ALL", "name": "全組合", "content": "過去7天 verdict 準確率 100.0%（15/15）", "source": "verdict_history.jsonl"}
 {"date": "2026-07-16", "type": "news_event", "ticker": "", "name": "", "content": "本日共 7 檔有個股新聞", "source": "Google News RSS"}
+{"date": "2026-07-16", "type": "verdict_accuracy", "ticker": "ALL", "name": "全組合", "content": "過去7天 verdict 準確率 100.0%（15/15）", "source": "verdict_history.jsonl"}
+{"date": "2026-07-16", "type": "news_event", "ticker": "", "name": "", "content": "本日共 7 檔有個股新聞", "source": "Google News RSS"}

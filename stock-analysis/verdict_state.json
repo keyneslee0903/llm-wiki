@@ -2,23 +2,23 @@
   "date": "2026-07-16",
   "stocks": {
     "聯強": {
-      "price": 87.2,
-      "verdict": "WAIT",
+      "price": 87.7,
+      "verdict": "WATCH",
       "updated_at": "2026-07-16"
     },
     "富邦金": {
-      "price": 128.5,
+      "price": 125.5,
       "verdict": "WAIT",
       "updated_at": "2026-07-16"
     },
     "國泰金": {
-      "price": 96.6,
+      "price": 96.8,
       "verdict": "WAIT",
       "updated_at": "2026-07-16"
     },
     "玉山金": {
-      "price": 34.45,
-      "verdict": "WAIT",
+      "price": 34.75,
+      "verdict": "WATCH",
       "updated_at": "2026-07-16"
     },
     "中信金": {
@@ -27,13 +27,13 @@
       "updated_at": "2026-07-16"
     },
     "緯創": {
-      "price": 145.5,
+      "price": 147.0,
       "verdict": "WAIT",
       "updated_at": "2026-07-16"
     },
     "合庫金": {
-      "price": 25.35,
-      "verdict": "WAIT",
+      "price": 25.4,
+      "verdict": "WATCH",
       "updated_at": "2026-07-16"
     }
   }

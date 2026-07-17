@@ -1,40 +1,47 @@
 {
-  "date": "2026-07-16",
+  "date": "2026-07-17",
   "stocks": {
     "聯強": {
-      "price": 87.7,
+      "price": 87.3,
       "verdict": "WATCH",
-      "updated_at": "2026-07-16"
+      "updated_at": "2026-07-17"
     },
     "富邦金": {
-      "price": 125.5,
+      "price": 125.0,
       "verdict": "WAIT",
-      "updated_at": "2026-07-16"
+      "updated_at": "2026-07-17"
     },
     "國泰金": {
-      "price": 96.8,
+      "price": 97.3,
       "verdict": "WAIT",
-      "updated_at": "2026-07-16"
+      "updated_at": "2026-07-17"
     },
     "玉山金": {
-      "price": 34.75,
+      "price": 34.9,
       "verdict": "WATCH",
-      "updated_at": "2026-07-16"
+      "updated_at": "2026-07-17"
     },
     "中信金": {
-      "price": 67.0,
+      "price": 66.7,
       "verdict": "WAIT",
-      "updated_at": "2026-07-16"
+      "updated_at": "2026-07-17"
     },
     "緯創": {
-      "price": 147.0,
+      "price": 146.5,
       "verdict": "WAIT",
-      "updated_at": "2026-07-16"
+      "updated_at": "2026-07-17"
     },
     "合庫金": {
-      "price": 25.4,
+      "price": 25.5,
       "verdict": "WATCH",
-      "updated_at": "2026-07-16"
+      "updated_at": "2026-07-17"
     }
+  },
+  "market_regime": {
+    "date": "2026-07-17",
+    "label": "choppy",
+    "confidence": 0.28,
+    "avg_pullback": 0.0698,
+    "watching": []
   }
 }

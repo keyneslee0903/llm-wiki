@@ -17,7 +17,7 @@
 | 09:00 | `investor-brief` | Brief | LLM 摘要 + 人語解說 |
 | 09:15 | `investor-deep-research` | Deep Research | `deepseek-v4-flash`（僅觸發時） |
 | 14:00 | `investor-evening-review` | Evening Review | verdict_history + daily_report |
-| 周六 | `investor-weekly-review` | 週末回顧（計劃中） | 7天 miss pattern + root cause 分析 |
+| 周六 10:00 | `investor-weekly-review` | 週末深度回顧 | 7天 miss pattern + root cause 分析 |
 
 ---
 
@@ -114,14 +114,18 @@
 - ✅ `verdict_adjustments.json` 初始化（正確 schema）
 - ✅ 語法驗證：daily_report.py + evening_review.py + strategy.py 通過
 
-**第二階段（自我進化 - L0 級別）：**
+**第二階段（自我進化 - L1 級別）：**
 - ✅ `investor_evening_review.py` 改進
   - miss_pattern 加入 miss rate by verdict type（e.g., "聯強(HOLD×2)"）
   - 標註「週末會做根本原因分析」
-- 📋 `investor_weekly_review.py`（計劃中，待實裝）
-  - 統計 7 天 miss pattern
-  - 推斷根本原因（需 ≥7 樣本、>50% 誤判率）
-  - 產出 strategy_delta（高信心度）
+- ✅ `investor_weekly_review.py` 實裝（週六 10:00 執行）
+  - 統計 7 天的 miss pattern（需 ≥7 樣本、>50% 誤判率）
+  - 根據 market_regime + price action 推斷根本原因
+  - 產出 strategy_delta（需 confidence ≥70%）
+- ✅ `investor_analyst.py` 改進
+  - 讀 verdict_adjustments.json
+  - 根據 adjustments 調整 verdict，並標註調整理由
+  - 形成自學習閉合循環
 
 ### 自我進化邏輯說明
 
@@ -133,17 +137,18 @@
   - `technical_pattern`：技術形態變化
   - `miss_pattern`：連續誤判個股 + miss rate by verdict type
 
-**未來計劃（L1 級別 - 每週分析）：**
-- 週末 investor-weekly-review：根本原因分析
-  - 統計 7 天的 miss pattern
+**L1 級別（每週深度分析）：**
+- 週六 10:00 investor-weekly-review：根本原因分析
+  - 統計 7 天的 miss pattern（需 ≥7 樣本、>50% 誤判率）
   - 根據 market_regime + price action 推斷根本原因
-  - 產出 `strategy_delta`（需 ≥7 樣本、>50% 誤判率）
-  - 更新 verdict_adjustments.json
+  - 產出 strategy_delta（需 confidence ≥70%）
 
-**防止過度擬合：**
-- 每日只記錄事實，不做推斷
-- 推斷需要 1 週以上的樣本
-- strategy_delta 需要高信心度（≥70%）
+**自學習循環（閉合）：**
+1. 週一-週五：evening-review 記錄 miss_pattern
+2. 週六：weekly-review 分析 7 天 miss → 推斷根本原因 → 產出 strategy_delta
+3. 週一 09:00：briefer 展示最新 strategy_delta（明日學習點）
+4. 週一 08:35：analyst 讀 verdict_adjustments.json，調整 verdict
+5. 週一 08:30：scout 執行新 verdict，cycle 閉合 ✓
 
 ---
 

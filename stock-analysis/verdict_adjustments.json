@@ -1,0 +1,14 @@
+{
+  "by_regime": {
+    "current_market_regime": {
+      "regime": "choppy",
+      "confidence": 0.85,
+      "avg_pullback": 0.1095,
+      "note": "市場當前 choppy 狀態"
+    }
+  },
+  "by_stock": {},
+  "by_sector": {},
+  "updated_at": "2026-07-21T08:41:35.704099",
+  "ttl_hours": 24
+}

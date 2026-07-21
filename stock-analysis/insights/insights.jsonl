@@ -1,11 +1,6 @@
 {"date": "2026-07-16", "type": "verdict_accuracy", "ticker": "ALL", "name": "全組合", "content": "過去7天 verdict 準確率 100.0%（15/15）", "source": "verdict_history.jsonl"}
 {"date": "2026-07-16", "type": "news_event", "ticker": "", "name": "", "content": "本日共 7 檔有個股新聞", "source": "Google News RSS"}
-{"date": "2026-07-16", "type": "verdict_accuracy", "ticker": "ALL", "name": "全組合", "content": "過去7天 verdict 準確率 100.0%（15/15）", "source": "verdict_history.jsonl"}
-{"date": "2026-07-16", "type": "news_event", "ticker": "", "name": "", "content": "本日共 7 檔有個股新聞", "source": "Google News RSS"}
-{"date": "2026-07-16", "type": "verdict_accuracy", "ticker": "ALL", "name": "全組合", "content": "過去7天 verdict 準確率 100.0%（15/15）", "source": "verdict_history.jsonl"}
-{"date": "2026-07-16", "type": "news_event", "ticker": "", "name": "", "content": "本日共 7 檔有個股新聞", "source": "Google News RSS"}
-{"date": "2026-07-16", "type": "news_event", "ticker": "", "name": "", "content": "本日共 7 檔有個股新聞", "source": "Google News RSS"}
-{"date": "2026-07-16", "type": "news_event", "ticker": "", "name": "", "content": "本日共 7 檔有個股新聞", "source": "Google News RSS"}
 {"date": "2026-07-17", "type": "news_event", "ticker": "", "name": "", "content": "本日共 7 檔有個股新聞", "source": "Google News RSS"}
 {"date": "2026-07-20", "type": "news_event", "ticker": "", "name": "", "content": "本日共 7 檔有個股新聞", "source": "Google News RSS"}
-{"date": "2026-07-20", "type": "news_event", "ticker": "", "name": "", "content": "本日共 7 檔有個股新聞", "source": "Google News RSS"}
+{"date": "2026-07-21", "type": "market_regime", "regime": "choppy", "confidence": 0.85, "avg_pullback": 0.1095, "watching": []}
+{"date": "2026-07-21", "type": "news_event", "ticker": "", "name": "", "content": "本日共 6 檔有個股新聞", "source": "Google News RSS"}

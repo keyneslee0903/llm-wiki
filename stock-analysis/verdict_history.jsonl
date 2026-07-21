@@ -10,3 +10,6 @@
 {"date": "2026-07-20", "ticker": "2885.TW", "name": "中信金", "price": 64.3, "verdict": "WAIT"}
 {"date": "2026-07-20", "ticker": "3231.TW", "name": "緯創", "price": 145.5, "verdict": "WAIT"}
 {"date": "2026-07-20", "ticker": "5880.TW", "name": "合庫金", "price": 25.45, "verdict": "WATCH"}
+{"date": "2026-07-21", "ticker": "2884.TW", "name": "玉山金", "price": null, "verdict": "WAIT"}
+{"date": "2026-07-21", "ticker": "2885.TW", "name": "中信金", "price": null, "verdict": "WAIT"}
+{"date": "2026-07-21", "ticker": "3231.TW", "name": "緯創", "price": null, "verdict": "WAIT"}
